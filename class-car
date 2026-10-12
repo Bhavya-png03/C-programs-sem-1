@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class car
+{ int modelno;
+  string color;
+  string brand;
+  float speed;
+  public:
+  void driving ()
+  { cout << "I'm Driving";
+    }
+};
+int main ()
+{
+    car c1;
+    c1.driving();
+
+    return 0;
+    
+}
