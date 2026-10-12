@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class car
+{ int modelno = 111;
+  string color = "Black";
+  string brand = "BMW";
+  float speed = 99.9;
+  public:
+  void driving ()
+  { cout << "I'm Driving"<<endl;
+    }
+  void display ()
+  {
+    cout << modelno<<endl;
+    cout << color<<endl;
+    cout << brand<<endl;
+    cout << speed<<endl;
+  }
+};
+int main ()
+{
+    car c1;
+    c1.driving();
+    c1.display();
+    
+return 0;
+    
+}
